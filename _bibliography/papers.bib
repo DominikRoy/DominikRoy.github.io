@@ -1,84 +1,72 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{DBLP:conf/sacmat/GeorgeSZ23,
+  abbr         = {SACMAT},
+  abstract     = {Third-Party Unmanned Aerial Vehicle (UAV) Services, a.k.a. Drone-as-a-Service (DaaS), are an increasingly adopted business model, which enables possibly unskilled users, with no background knowledge, to operate drones and run automated drone-based tasks. Although these services provide significant advantages, the resources provided by drones are typically owned by multiple parties. Thus, Third-Party UAV services require adopting multi-party access control solutions. In this context, the leakage of the access control policies specified by the data owners might disclose confidential information and, thus, they should be protected as well. In this work, we propose a privacy-preserving multi-party access control solution tailored to the application scenarios of Third-Party UAV Services. Our solution advances an existing privacy-preserving multi-party access control framework based on Secure Function Evaluation to fit the distributed and heterogeneous nature of drone deployments. Through an extensive experimental evaluation, we demonstrate our solution can perform private policy evaluation on constrained devices in a reasonable time while requiring limited communication, memory, and energy overhead.},
+  pdf ={https://dl.acm.org/doi/pdf/10.1145/3589608.3593837},
+  bibtex_show = True,
+  author       = {Dominik Roy George and
+                  Savio Sciancalepore and
+                  Nicola Zannone},
+  editor       = {Silvio Ranise and
+                  Roberto Carbone and
+                  Daniel Takabi},
+  title        = {Privacy-Preserving Multi-Party Access Control for Third-Party {UAV}
+                  Services},
+  booktitle    = {Proceedings of the 28th {ACM} Symposium on Access Control Models and
+                  Technologies, {SACMAT} 2023, Trento, Italy, June 7-9, 2023},
+  pages        = {19--30},
+  publisher    = {{ACM}},
+  year         = {2023},
+  url          = {https://doi.org/10.1145/3589608.3593837},
+  doi          = {10.1145/3589608.3593837},
+  timestamp    = {Fri, 02 Jun 2023 01:00:00 +0200},
+  code         = {https://github.com/DominikRoy/PP-DaaS}
+  biburl       = {https://dblp.org/rec/conf/sacmat/GeorgeSZ23.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{DBLP:conf/acsac/SciancaleporeG22,
+  abbr = {ACSAC},
+  abstract = {Autonomous Unmanned Aerial Vehicles (UAVs) are increasingly deployed nowadays, thanks to the additional features and enhanced flexibility they provide, e.g., for transportation and goods delivery. On the one hand, discovering in advance collisions occurring with other UAVs in the future could enhance the efficiency of the path planning, reducing further the delivery time and UAVs’ energy consumption. On the other hand, location and timestamps–key to detecting and avoiding collisions in advance–are sensitive and cannot be shared indiscriminately with untrusted entities.
+  This paper solves the aforementioned challenging problem by proposing PPTM, a new protocol for efficient and effective privacy-preserving trajectory matching on autonomous UAVs. PPTM allows two UAVs, possibly not connected to the Internet, to discover any spatial and temporal collisions in their future paths, without revealing to the other party anything else than the colliding time and coordinates. To this aim, PPTM grounds on a dedicated tree-based algorithm, namely, Incremental Capsule Matching, tailored to the unique features of spatio-temporal data, and it also integrates a lightweight privacy-preserving proximity testing solution for performing private comparisons. We tested our solution on real devices with heterogeneous processing capabilities (a regular laptop, a tiny processing unit, and a mini-drone), showing that PPTM can perform privacy-preserving trajectory matching even in a few milliseconds, up to 98.27% quicker compared to the most efficient competing solution.
+  },
+  pdf = {https://dl.acm.org/doi/pdf/10.1145/3564625.3564626},
+  bibtex_show = True,
+  code = {https://github.com/DominikRoy/PPTM},
+  author       = {Savio Sciancalepore and
+                  Dominik Roy George},
+  title        = {Privacy-Preserving Trajectory Matching on Autonomous Unmanned Aerial
+                  Vehicles},
+  booktitle    = {Annual Computer Security Applications Conference, {ACSAC} 2022, Austin,
+                  TX, USA, December 5-9, 2022},
+  pages        = {1--12},
+  publisher    = {{ACM}},
+  year         = {2022},
+  url          = {https://doi.org/10.1145/3564625.3564626},
+  doi          = {10.1145/3564625.3564626},
+  timestamp    = {Sun, 25 Dec 2022 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/acsac/SciancaleporeG22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{DBLP:conf/cns/GeorgeS22,
+  abbr = {IEEE CNS},
+  abstract = {Due to the mobile and pervasive nature of IoT networks, even more frequently, multiple IoT networks managed by different network administrators share the same spectrum and operate in the same area, leading to packet losses and degradation of the Quality of Service (QoS). Assuming the use of the widespread IEEE 802.15.4 communication technology, the most straightforward solution would be to allow the networks to share the local Radio Scheduling Table (RST) to optimize channel access. However, exchanging the RST can leak several key information, such as the topology of the network, the number of devices, and the channel access patterns. To address such problems, we present PRM, the first scheme for discovering in advance potential interferences among IEEE 802.15.4 networks, without exposing the whole RST to untrusted parties. Our solution adapts a protocol for Private Set Intersection, while combining it with an innovative iterative set division algorithm, making the whole solution feasible on constrained devices of the IoT domain. Our experimental performance assessment, carried out on heterogeneous devices, shows that PRM can discover colliding channel assignments in less than 1 sec. on more capable embedded devices (e.g., the Raspberry PI), while also being feasible for more constrained platforms (e.g., the ESPCopter), depending on the amount of used radio resources.},
+  pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9947236},
+  bibtex_show = True,
+  code = {https://github.com/DominikRoy/PRM},
+  author       = {Dominik Roy George and
+                  Savio Sciancalepore},
+  title        = {{PRM} - Private Interference Discovery for {IEEE} 802.15 4 Networks},
+  booktitle    = {10th {IEEE} Conference on Communications and Network Security, {CNS}
+                  2022, Austin, TX, USA, October 3-5, 2022},
+  pages        = {136--144},
+  publisher    = {{IEEE}},
+  year         = {2022},
+  url          = {https://doi.org/10.1109/CNS56114.2022.9947236},
+  doi          = {10.1109/CNS56114.2022.9947236},
+  timestamp    = {Fri, 25 Nov 2022 09:04:32 +0100},
+  biburl       = {https://dblp.org/rec/conf/cns/GeorgeS22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
