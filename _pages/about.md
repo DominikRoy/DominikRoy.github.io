@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: I am a PhD Candidate at <a href="https://research.tue.nl/en/persons/dominik-roy-george">Eindhoven University of Technology.</a>
 
@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 My research focuses on integrating **Privacy Enhancing Technologies** into the **IoT Ecosystem**.
 Depending on the scenario and problem we use privacy enhancing techniques to design schemes/protocols.
-For my current research we mostly utilize the **UAV Domain** (see [publications page](/publications.md)).
+For my current research we mostly utilize the **UAV Domain** (see [publications page](/publications/)).
 As a byproduct of my research we can identify the trade-off between **privacy** and **energy consumption**.
 In addition, we use [ProVerif](https://bblanche.gitlabpages.inria.fr/proverif/) to symbolically verify the correctness of our designed protocols against the **Dolev-Yao attacker model**.
 

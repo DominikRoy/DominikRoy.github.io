@@ -41,10 +41,9 @@ description: classes, workshops, and teaching material
     </div>
     <h6 class="font-italic mt-2 mt-sm-0">2021: Teaching Fellow</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">Master's-level ministered by Dr. <a target="_blank" href="https://www.tue.nl/en/research/researchers/boris-skoric/">Boris Škorić</a> and Dr. <a target="_blank" href="https://www.tue.nl/en/research/researchers/nicola-zannone/">Nicola Zannone</a>.</li>
+      <li class="list-group-item">Master's-level seminar managed by Dr. <a target="_blank" href="https://www.tue.nl/en/research/researchers/boris-skoric/">Boris Škorić</a> and Dr. <a target="_blank" href="https://www.tue.nl/en/research/researchers/nicola-zannone/">Nicola Zannone</a>.</li>
     </ul>
   </div>
 </div>
 
 
-</div>
