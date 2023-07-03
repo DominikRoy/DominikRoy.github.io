@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: I am a PhD Candidate at <a href="https://research.tue.nl/en/persons/dominik-roy-george">Eindhoven University of Technology</a>
+subtitle: I am a PhD Candidate at <a href="https://research.tue.nl/en/persons/dominik-roy-george">Eindhoven University of Technology.</a>
 
 profile:
   align: right
@@ -25,6 +25,6 @@ For my current research we mostly utilize the **UAV Domain** (see [publications 
 As a byproduct of my research we can identify the trade-off between **privacy** and **energy consumption**.
 In addition, we use [ProVerif](https://bblanche.gitlabpages.inria.fr/proverif/) to symbolically verify the correctness of our designed protocols against the **Dolev-Yao attacker model**.
 
-My work is currently supervised by [Dr. Savio Sciancalepore] (https://ssciancalepore.win.tue.nl/) at the [Security Group] (https://www.tue.nl/en/research/research-groups/computer-science/security) of the [Department of Mathematics and Computer Science](https://www.tue.nl/en/our-university/departments/mathematics-and-computer-science/research) at TU/e.
+My work is currently supervised by [Dr. Savio Sciancalepore](https://ssciancalepore.win.tue.nl/) at the [Security Group](https://www.tue.nl/en/research/research-groups/computer-science/security) of the [Department of Mathematics and Computer Science](https://www.tue.nl/en/our-university/departments/mathematics-and-computer-science/research) at TU/e.
 
 
