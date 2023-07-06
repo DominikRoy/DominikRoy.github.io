@@ -9,7 +9,7 @@ horizontal: false
 ---
 
 <!-- pages/service.md -->
-## External Reviwer & Subreviewer
+## External Reviewer & Subreviewer
 - ESORICS, 2023 (1st & 2nd cycle) <!--3 papers-->
 - ACSAC, 2023 <!-- 2 papers-->
 - IEEE Internet of Things Journal, 2023
