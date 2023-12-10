@@ -11,7 +11,7 @@ horizontal: false
 <!-- pages/service.md -->
 ## External Reviewer & Subreviewer
 - ESORICS, 2023 (1st & 2nd cycle) <!--3 papers-->
-- ACSAC, 2023 <!-- 2 papers-->
+- Annual Computer Security Applications Conference (ACSAC), 2023 <!-- 2 papers-->
 - IEEE Internet of Things Journal, 2023
 - Frontiers in Computer Science (Section Computer Security), 2023
 - 32nd International Conference on Computer Communications and Networks (ICCCN), 2023
@@ -20,3 +20,6 @@ horizontal: false
 - ESORICS, 2022 (1st & 2nd cycle) <!--4 papers-->
 - 37th ACM/SIGAPP Symposium On Applied Computing (SAC), 2021
 - IEEE Internet of Things Journal, 2021
+
+## Artifact Evaluation Reviewer
+- Annual Computer Security Applications Conference (ACSAC), 2023 <!-- 2 artifacts-->
